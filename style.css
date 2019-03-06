@@ -1,0 +1,50 @@
+#container {
+  background-color: ghostwhite;
+}
+
+h1 {
+  color: darkslategrey;
+}
+ul {
+  list-style: none;
+}
+
+#buttonBar {
+  display: flex;
+  height: 20px;
+}
+button {
+  border-color: darkslateblue;
+  background-color: aliceblue;
+  color: darkslateblue
+}
+
+li {
+  display: flex;
+  padding: 30px;
+}
+
+ul h3 {
+  border-bottom: darkslategrey;
+  border-bottom-style: solid;
+  width: 70%;
+  padding-bottom: 10px;
+  color: darkslategrey;
+}
+.itemBody {
+  display: flex;
+  flex-direction: column;
+}
+.itemBody p {
+  width: 50%;
+  padding-left: 20px;
+  color: dimgrey;
+}
+.itemHeader{
+  display: flex;
+  padding: 20px;
+  color: darkslategrey;
+}
+.itemHeader h4 {
+  margin-right: 25%;
+}
